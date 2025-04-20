@@ -71,6 +71,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Frontend Engineer",
+      logoUrl: "/easybit.png",
       start: "Oct 2024",
       end: "Feb 2025",
       description:
