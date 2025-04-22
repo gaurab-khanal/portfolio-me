@@ -5,6 +5,7 @@ import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { GithubGraph } from "@/components/ui/github";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -38,6 +39,11 @@ export default function Page() {
             </BlurFade>
           </div>
         </div>
+      </section>
+      <section id="github">
+        <BlurFade delay={BLUR_FADE_DELAY * 3}>
+          <GithubGraph username="gaurab-khanal" blockMargin={2} />
+        </BlurFade>
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
