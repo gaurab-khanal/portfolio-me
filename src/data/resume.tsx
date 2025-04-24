@@ -114,34 +114,36 @@ export const DATA = {
     },
   ],
   projects: [
-    // {
-    //   title: "Chat Collect",
-    //   href: "https://chatcollect.com",
-    //   dates: "Jan 2024 - Feb 2024",
-    //   active: true,
-    //   description:
-    //     "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Stripe",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://chatcollect.com",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    // },
+    {
+      title: "MeetUp",
+      href: "https://meetup.gaurabkhanal.tech/",
+      dates: " ",
+      active: true,
+      description:
+        "Developed a real-time video conferencing application that enables users to create or join virtual rooms for seamless video and audio communication. Key features include dynamic room management, participant controls, clipboard integration, and a responsive UI. Integrated WebRTC and PeerJS for peer-to-peer streaming and used Socket.IO for real-time event handling.",
+      technologies: [
+        "Next.js",
+        "WebRTC",
+        "PeerJs",
+        "Socket.IO",
+        "TailwindCSS",
+        "Framer Motion",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://meetup.gaurabkhanal.tech/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/gaurab-khanal/meetUp",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/meetup.mkv",
+    },
     // {
     //   title: "Magic UI",
     //   href: "https://magicui.design",
