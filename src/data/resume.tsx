@@ -66,7 +66,7 @@ export const DATA = {
 
   work: [
     {
-      company: "Kubestellar"
+      company: "Kubestellar",
       href: "https://kubestellar.io/",
       badges: [],
       location: "Remote",
