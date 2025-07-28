@@ -71,7 +71,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Intern for Opensource",
-      href: "https://media.licdn.com/dms/image/v2/D4E0BAQGd7cY1Rrk-Rg/company-logo_200_200/company-logo_200_200/0/1706622981215/kubestellar_logo?e=1756339200&v=beta&t=GfYp665dSgO-MGVLia8UH5_N16uxuKV377QxEzs3Ydc",
+      logoUrl: "https://media.licdn.com/dms/image/v2/D4E0BAQGd7cY1Rrk-Rg/company-logo_200_200/company-logo_200_200/0/1706622981215/kubestellar_logo?e=1756339200&v=beta&t=GfYp665dSgO-MGVLia8UH5_N16uxuKV377QxEzs3Ydc",
       start: "Jun 2025",
       end: "Present",
       description: 
