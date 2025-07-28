@@ -74,14 +74,14 @@ export const DATA = {
       href: "https://media.licdn.com/dms/image/v2/D4E0BAQGd7cY1Rrk-Rg/company-logo_200_200/company-logo_200_200/0/1706622981215/kubestellar_logo?e=1756339200&v=beta&t=GfYp665dSgO-MGVLia8UH5_N16uxuKV377QxEzs3Ydc",
       start: "Jun 2025",
       end: "Present",
-      Description: "
-                Design and implement DB schema for Plugin system.
-                 Use WASI for Instantiating the plugin where required.
+      description: 
+              `Design and implement DB schema for Plugin system.
+               Use WASI for Instantiating the plugin where required.
                  Added migration support for the project using go-migrate.
                  Implement frontend UI to support backend APIs.
                  Collaborating with mentors and other mentee to work smoothly on the Plugin system.
                  Demonstrated a Simple Plugin system for mid-term evaluation.
-                 Fixing other minor bugs and raising help-wanted/good-first-issue to onboard new contributors."
+                 Fixing other minor bugs and raising help-wanted/good-first-issue to onboard new contributors.`
     },
     {
       company: "EasyBit Software Solutions",
