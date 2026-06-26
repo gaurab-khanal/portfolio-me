@@ -11,16 +11,26 @@ export const DATA = {
   summary:
     "As a software developer, I’ve built dynamic web applications with the MERN stack and Next.js. Now, I’m diving into DevOps, exploring tools like Docker, Kubernetes, and CI/CD pipelines. Along the way, I’ve competed in hackathons, focusing on real-world impact. My goal is to bridge development and operations, creating scalable systems while growing as a developer and DevOps engineer.",
   skills: [
+    "Javascript",
+    "TypeScript",
+    "Golang",
     "React",
     "Next.js",
-    "Typescript",
     "Node.js",
     "Express",
-    "Postgres",
-    "Docker",
-    "MongoDB",
-    "WebRTC",
     "Socket.io",
+    "MongoDB",
+    "PostgreSQL",
+    "Prisma",
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "WebRTC",
+    "CSS",
+    "Tailwind",
+    "MaterialUI",
+    "Redux Toolkit",
+    "Shadcn UI",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -66,22 +76,43 @@ export const DATA = {
 
   work: [
     {
-      company: "Kubestellar",
+      company: "KubeStellar",
       href: "https://kubestellar.io/",
-      badges: [],
+      badges: ["CNCF Sandbox"],
       location: "Remote",
-      title: "Intern for Opensource",
-      logoUrl: "https://media.licdn.com/dms/image/v2/D4E0BAQGd7cY1Rrk-Rg/company-logo_200_200/company-logo_200_200/0/1706622981215/kubestellar_logo?e=1756339200&v=beta&t=GfYp665dSgO-MGVLia8UH5_N16uxuKV377QxEzs3Ydc",
+      title: "Open Source Maintainer",
+      logoUrl:
+        "https://media.licdn.com/dms/image/v2/D4E0BAQGd7cY1Rrk-Rg/company-logo_200_200/company-logo_200_200/0/1706622981215/kubestellar_logo?e=1756339200&v=beta&t=GfYp665dSgO-MGVLia8UH5_N16uxuKV377QxEzs3Ydc",
+      start: "Nov 2025",
+      end: "Feb 2026",
+      description:
+        "Help onboard new contributors. Added GitHub workflow automating release of kubectl-multi.",
+    },
+    {
+      company: "KubeStellar",
+      href: "https://kubestellar.io/",
+      badges: ["CNCF Sandbox"],
+      location: "Remote",
+      title: "Linux Foundation Mentee",
+      logoUrl:
+        "https://media.licdn.com/dms/image/v2/D4E0BAQGd7cY1Rrk-Rg/company-logo_200_200/company-logo_200_200/0/1706622981215/kubestellar_logo?e=1756339200&v=beta&t=GfYp665dSgO-MGVLia8UH5_N16uxuKV377QxEzs3Ydc",
+      start: "Sep 2025",
+      end: "Nov 2025",
+      description:
+        "Implemented multi-cluster status aggregation, enabling real-time health monitoring for distributed Kubernetes workloads. Designed KubeStellar API extension to enable multi-cluster aggregation feature. Troubleshot and fixed existing issues related to singleton status API.",
+    },
+    {
+      company: "KubeStellar",
+      href: "https://kubestellar.io/",
+      badges: ["CNCF Sandbox"],
+      location: "Remote",
+      title: "Software Engineer Intern",
+      logoUrl:
+        "https://media.licdn.com/dms/image/v2/D4E0BAQGd7cY1Rrk-Rg/company-logo_200_200/company-logo_200_200/0/1706622981215/kubestellar_logo?e=1756339200&v=beta&t=GfYp665dSgO-MGVLia8UH5_N16uxuKV377QxEzs3Ydc",
       start: "Jun 2025",
-      end: "Present",
-      description: 
-              `Design and implement DB schema for Plugin system.
-               Use WASI for Instantiating the plugin where required.
-                 Added migration support for the project using go-migrate.
-                 Implement frontend UI to support backend APIs.
-                 Collaborating with mentors and other mentee to work smoothly on the Plugin system.
-                 Demonstrated a Simple Plugin system for mid-term evaluation.
-                 Fixing other minor bugs and raising help-wanted/good-first-issue to onboard new contributors.`
+      end: "Aug 2025",
+      description:
+        "Designed and implemented DB schema for the Plugin system. Used WASI for instantiating plugins where required. Added migration support using go-migrate. Implemented frontend UI to support backend APIs. Collaborated with mentors and other mentees on the Plugin system. Demonstrated a simple Plugin system for mid-term evaluation. Integrated Plugin Frontend System enabling dynamic plugins to load on the host frontend. Fixed minor bugs and raised help-wanted/good-first-issue tickets to onboard new contributors.",
     },
     {
       company: "EasyBit Software Solutions",
@@ -93,19 +124,19 @@ export const DATA = {
       start: "Oct 2024",
       end: "Feb 2025",
       description:
-        "Developed a real-time chat application with integrated API support using SignalR for messaging and signaling. Implemented a video calling system using WebRTC, enabling seamless text and video communication between random users. Designed and built the overall frontend UI for optimal user experience",
+        "Created the overall frontend UI. Developed an end-to-end scalable chat application using SignalR and integrated APIs for proper connection establishment. Implemented a video call system using WebRTC with SignalR as the signaling server. Established connections between random users for successful communication over text and video chat.",
     },
     {
       company: "HUNCHHA DIGITAL",
       badges: [],
       href: "https://hunchhadigital.com/",
       location: "Remote",
-      title: "Frontend Developer",
+      title: "Junior Frontend Developer",
       logoUrl: "/hunchha.png",
       start: "April 2024",
       end: "Jul 2024",
       description:
-        "Designed and implemented UI components for the E-Parliament Web App and SaaS Payroll system, integrated APIs, automated reporting, and collaborated with cross-functional teams to streamline development and enhance efficiency.",
+        "Designed and implemented UI components for the E-Parliament Web App and a SaaS-based Payroll system. Developed and maintained the E-Parliament Web App for the Nepal Government, with a focus on secure document handling and real-time collaboration features. Integrated APIs for the Seamless Payroll and Attendance System. Automated reporting features, resulting in a 40% reduction in manual work. Collaborated with cross-functional teams to ensure seamless integration of front-end components with backend services. Projects: shaasan2.vercel.app, hajirkhata.com.",
     },
     {
       company: "HUNCHHA DIGITAL",
@@ -117,7 +148,7 @@ export const DATA = {
       start: "Dec 2023",
       end: "Mar 2024",
       description:
-        "Worked on integrating a complete authentication system, improving frontend efficiency with React memoization, and contributing to a public issue management system for the Government of Nepal.",
+        "Worked with the team to integrate a complete authentication system consuming backend APIs. Built responsive UI with a major focus on state management using Redux Toolkit. Integrated ApexCharts for data visualization and Leaflet to implement maps. Improved frontend application efficiency using React memoization techniques. Contributed to a public issue management system for the Government of Nepal. Project: shaasan.vercel.app.",
     },
   ],
   education: [
@@ -138,7 +169,7 @@ export const DATA = {
       dates: " ",
       active: true,
       description:
-        "Developed a real-time video conferencing application that enables users to create or join virtual rooms for seamless video and audio communication. Key features include dynamic room management, participant controls, clipboard integration, and a responsive UI. Integrated WebRTC and PeerJS for peer-to-peer streaming and used Socket.IO for real-time event handling.",
+        "A full-stack live video chat web application using Next.js, Node.js, Socket.io, and WebRTC. Implemented peer-to-peer video chat with features to create and join rooms.",
       technologies: [
         "Next.js",
         "WebRTC",
@@ -162,100 +193,36 @@ export const DATA = {
       image: "",
       video: "/meetup.mkv",
     },
-    // {
-    //   title: "Magic UI",
-    //   href: "https://magicui.design",
-    //   dates: "June 2023 - Present",
-    //   active: true,
-    //   description:
-    //     "Designed, developed and sold animated UI components for developers.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Stripe",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://magicui.design",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/magicuidesign/magicui",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video: "https://cdn.magicui.design/bento-grid.mp4",
-    // },
-    // {
-    //   title: "llm.report",
-    //   href: "https://llm.report",
-    //   dates: "April 2023 - September 2023",
-    //   active: true,
-    //   description:
-    //     "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //     "Stripe",
-    //     "Cloudflare Workers",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://llm.report",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/dillionverma/llm.report",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video: "https://cdn.llm.report/openai-demo.mp4",
-    // },
-    // {
-    //   title: "Automatic Chat",
-    //   href: "https://automatic.chat",
-    //   dates: "April 2023 - March 2024",
-    //   active: true,
-    //   description:
-    //     "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //     "Stripe",
-    //     "Cloudflare Workers",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://automatic.chat",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    // },
+    {
+      title: "Whiteboard App",
+      href: "https://whiteboard-nine-xi.vercel.app/",
+      dates: " ",
+      active: true,
+      description:
+        "A full-stack web application using Next.js, Canvas API, Node.js, Express, and Socket.io. Features include drawing on canvas, erasing, undo/redo, and live collaboration.",
+      technologies: [
+        "Next.js",
+        "Canvas API",
+        "Node.js",
+        "Express",
+        "Socket.io",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://whiteboard-nine-xi.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/gaurab-khanal/whiteboard",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
   ],
   hackathons: [
     {
